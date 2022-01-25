@@ -69,6 +69,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-<a href="https://cseku160212.github.io/" target="_blank"><b>View Portfolio in Browser</b></a>
+<a href="https://cseku160212.github.io/" target="_blank"><b>View Portfolio on Browser</b></a>
 
 �# portfolio_new_reactjs
