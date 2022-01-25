@@ -1,0 +1,99 @@
+.navfixed{
+    position: fixed;
+    opacity: 1;
+    background-color: #152d35;
+    z-index: 99999999999;
+    /* overflow: hidden; */
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: fit-content;
+    margin: auto;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li div {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+ul.topnav li div:hover:not(.active) {
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0px 0px 35px 0px #152D35; 
+    box-shadow: inset 0px 0px 35px 0px #152D35;
+}
+
+ul.topnav li div.active {
+    background-color:white;
+    color: black;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.navbar {
+    /* -webkit-box-shadow: 0px 0px 10px -3px #000000;
+    box-shadow: 0px 0px 10px -3px #000000; */
+    padding: 10px;
+    height: fit-content;
+}
+
+.navbarOnScroll{
+    -webkit-box-shadow: 0px 0px 10px -3px #000000;
+    box-shadow: 0px 0px 10px -3px #000000;
+    padding: 10px;
+    height: fit-content;
+    /* align-items: left;
+    align-content: left; */
+    text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+        display: none;
+    }
+    .menu-icon {
+        display: inline-block;
+        padding: 10px 0px 10px 15px;
+    }
+    .navbar {
+        text-align: left;
+        justify-content: left;
+    }
+}
+
+
+.drawer-item{
+    width: 100%;
+    padding: 10px 0px;
+    letter-spacing: 2px;
+}
+.drawer-item:hover{
+    background-color: #152d35;
+    color: white;
+    padding: 5px 5px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 3px;
+}

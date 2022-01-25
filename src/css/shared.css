@@ -1,0 +1,198 @@
+.container {
+    margin-top: 0px;
+    padding-top: 80px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+._shadow{
+    -webkit-box-shadow: 0px 0px 8px 5px #1A374D; 
+    box-shadow: 0px 0px 8px 5px #1A374D;
+}
+
+.download_resume_button{
+    margin-top: 20px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 12px 6px #0D1C21; 
+    box-shadow: 0px 0px 12px 6px #0D1C21;
+    color: #ff014f;
+    font-size:larger;
+}
+
+.download_resume_button:hover{
+    cursor: pointer;
+    padding: 15px 50px;
+    -webkit-box-shadow: 0px 0px 12px 6px #0D1C21; 
+    box-shadow: 0px 0px 12px 6px #0D1C21;
+}
+
+.education_item{
+    /* -webkit-box-shadow: 0px 0px 12px 6px #263438; 
+    box-shadow: 0px 0px 12px 6px #263438; */
+    padding:20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.education_item:hover{
+    transition: transform .2s; /* Animation */
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.padding {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.image_item:hover{
+    transition: transform .9s; /* Animation */
+    transform: scale(1.25);
+    cursor:zoom-in;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .image_item:hover{
+        transition: transform .9s; /* Animation */
+        transform: scale(1.25);
+        cursor:zoom-in;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+}
+
+.institute_location {
+    float: right;
+}
+.study_session{
+    float: right;
+    clear: both;
+    font-size: small;
+}
+
+.skills_logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.image_item_about{
+    width: 80%;
+    height: 350px;
+}
+
+@media only screen and (max-width: 800px) {
+    .institute_location {
+        float: none;
+        clear: both;
+        display: block;
+        background-color: #072227;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 5px 0px;
+        text-align: center;
+        font-size: small;
+    }
+    .study_session{
+        float: none;
+        clear: both;
+        display: block;
+        background-color: #072227;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 5px 0px;
+        text-align: center;
+        font-size: small;
+    }
+    .padding{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .align_center_all{
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .image_item_about{
+        width: 80%;
+        height: 230px;
+    }
+    div.gallery{
+        margin: auto;
+        justify-self: center;
+    }
+    
+    .skills_logo{
+        height: 50px;
+        width: 50px;
+        border-radius: 5px;
+        margin: auto;
+    }
+    
+    .padding_skill_item{
+        padding: 2px 5px;
+        font-size: small;
+    }
+}
+
+div.gallery {
+  margin: 10px 20px 30px 0px;
+  float: left;
+  width: "fit-content";
+  height: fit-content;
+  position: relative;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  border-radius: 5px;
+  transition: transform .9s; /* Animation */
+  transform: scale(1.25);
+  cursor:zoom-in;
+}
+
+.layout_class {
+    clear:both;
+    margin-top: 10px;
+    background-color: inherit;
+}
+
+.align_div{
+    /* margin: auto; */
+    /* width: fit-content; */
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill_header{
+    color: #FFF1CF; 
+    text-align:center; 
+    padding:5px 0px;
+    -webkit-box-shadow: 0px 0px 15px 4px #105652; 
+    box-shadow: 0px 0px 15px 4px #105652;
+    border-radius: 5px;
+    letter-spacing: 0.1rem;
+}
+
+.border{
+    -webkit-box-shadow: 0px 0px 15px 4px #105652; 
+    box-shadow: 0px 0px 15px 4px #105652;
+}
+
+.ant-drawer-left .ant-drawer-content-wrapper {
+    left: 0;
+    height: fit-content !important;
+}
+.ant-drawer-body {
+    padding: 10px 15px 10px 15px !important;
+    background-color: #FFD369 !important;
+}
+
+.padding_skill_item{
+    padding: 2px 5px;
+}
