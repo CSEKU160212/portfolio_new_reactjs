@@ -40,6 +40,31 @@
     cursor: pointer;
 }
 
+
+.publication_items_div{
+    /* -webkit-box-shadow: 0px 0px 12px 6px #263438; 
+    box-shadow: 0px 0px 12px 6px #263438; */
+    padding:20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.publication_item:hover{
+    cursor: pointer;
+}
+
+.publication:hover{
+    transition: transform .2s; /* Animation */
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.publication_item_content_p{
+    text-align: justify;
+    text-justify: inter-word;
+    color: #FFF1CF
+}
+
 .padding {
     padding-left: 10%;
     padding-right: 10%;
@@ -195,4 +220,8 @@ div.gallery:hover {
 
 .padding_skill_item{
     padding: 2px 5px;
+}
+
+.ant-form-item-label > label {
+    color: whitesmoke !important;
 }

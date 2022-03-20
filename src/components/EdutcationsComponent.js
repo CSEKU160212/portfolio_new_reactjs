@@ -19,7 +19,7 @@ const educationList = [
     },
     {
         institute: "New Govt. Degree College, Rajshahi",
-        degree: "Higher Seconday School", 
+        degree: "Higher Secondary School", 
         session: "July 2013 - Jun 2015", 
         key:"college", 
         location: "Rajshahi, Bangladesh",

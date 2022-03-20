@@ -1,5 +1,4 @@
-import { DownloadOutlined } from "@ant-design/icons/lib/icons";
-import { Button, Typography } from "antd";
+import { Typography } from "antd";
 import React from "react";
 import classes from "../css/about.module.css";
 import "../css/shared.css";
