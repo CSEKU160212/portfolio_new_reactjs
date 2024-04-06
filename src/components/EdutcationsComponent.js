@@ -2,6 +2,7 @@ import React from "react";
 import "../css/shared.css";
 import { Typography } from "antd";
 import EducationItemComponent from "./Items/EducationItemComponent";
+import { section } from "../staticData/sections";
 
 const {Title} = Typography;
 
@@ -47,7 +48,7 @@ const educationList = [
 const EdutcationComponent = (props) => {
     return (
         <>
-            <div className="container padding" ref={props.ownRef}>
+            <div className="container padding pageContent" id={section.education} ref={props.ownRef}>
                 <div>
                     <Title level={3} style={{color: "white", textAlign:"center"}}>Education</Title>
                 </div>

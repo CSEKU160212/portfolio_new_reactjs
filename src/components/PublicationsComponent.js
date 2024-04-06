@@ -2,6 +2,7 @@ import React from "react";
 import { Typography, Carousel } from "antd";
 import "../css/shared.css";
 import PublicationItemComponent from "./Items/PublicationItemComponent";
+import { section } from "../staticData/sections";
 
 const {Title} = Typography;
 
@@ -36,7 +37,7 @@ const publicationList = [
 const PublicationsComponent = (props) => {
     return (
       <>
-        <div className="container padding" ref={props.ownRef}>
+        <div className="container padding pageContent" id={section.publications} ref={props.ownRef}>
           <div>
             <Title level={3} style={{ color: "white", textAlign: "center" }}>
               Publications

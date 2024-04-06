@@ -12,6 +12,7 @@ import classes from "../css/home.module.css";
 import "../css/shared.css";
 import styled, { keyframes } from 'styled-components';
 import { bounceIn } from 'react-animations'
+import { section } from "../staticData/sections";
 
 const animationType = keyframes`${bounceIn}`;
 
@@ -22,7 +23,7 @@ const NameAnimation = styled.span`
 const { Title } = Typography;
 
 
-const jobTitles = ["a Programmer", "a Developer"];
+const jobTitles = ["a Programmer", "a Software Engineer"];
 
 const HomeComponent = (props) => {
     const [titleToggle, setTitleToggle] = useState(true);
@@ -38,8 +39,9 @@ const HomeComponent = (props) => {
     return (
       <>
         <div
-          className={`${classes.flex_container} container`}
-          ref={props.ownRef}
+          className={`${classes.flex_container} container pageContent`}
+          ref={props.ownRef} 
+          id={section.home}
         >
           <div
             className={`${classes.flex_item} ${classes.padding}`}
@@ -63,10 +65,10 @@ const HomeComponent = (props) => {
             </Title>
             <div>
               <div>
-                POS Service Department,{" "}
-                <a href={"https://www.aamratechnologies.com/"}>
+                IT,{" "}
+                <a href={"https://www.idlc.com//"}>
                   {" "}
-                  aamra Technologies Limited{" "}
+                  IDLC Finance Ltd.{" "}
                 </a>
               </div>
             </div>

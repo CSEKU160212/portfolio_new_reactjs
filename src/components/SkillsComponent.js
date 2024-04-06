@@ -21,13 +21,14 @@ import {ReactComponent as VsCodeLogo} from "../assets/languageLogo/visual-studio
 import {ReactComponent as WindwosLogo} from "../assets/languageLogo/windows.svg";
 import {ReactComponent as BootstrapLogo} from "../assets/languageLogo/bootstrap.svg";
 import "../css/shared.css";
+import { section } from "../staticData/sections";
 
 
 const { Title } = Typography;
 
 const SkillsComponent = (props) => {
     return <>
-        <div ref={props.ownRef} className={`container padding`}>
+        <div ref={props.ownRef} className={`container padding pageContent`} id={section.skills} >
             <div>
                 <Title level={3} style={{ color: "white", textAlign:"center" }}>
                     Skills

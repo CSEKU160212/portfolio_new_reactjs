@@ -2,6 +2,7 @@ import React from "react";
 import { Typography } from "antd";
 import "../css/shared.css";
 import {Form, Input, Button} from 'antd';
+import { section } from "../staticData/sections";
 
 
 const {Title} = Typography;
@@ -26,7 +27,7 @@ const ContactsComponents = (props) => {
     };
 
     return (
-      <div className="container padding" ref={props.ownRef}>
+      <div className="container padding pageContent" id={section.contacts}  ref={props.ownRef}>
         <div>
           <Title level={3} style={{ color: "white", textAlign: "center" }}>
             Contact

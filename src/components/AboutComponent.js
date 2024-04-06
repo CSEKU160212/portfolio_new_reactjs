@@ -2,13 +2,15 @@ import { Typography } from "antd";
 import React from "react";
 import classes from "../css/about.module.css";
 import "../css/shared.css";
+import { section } from "../staticData/sections";
 
 const { Title } = Typography;
 
 const AboutComponent = () => {
     return (
         <>
-            <div className={`${classes.flex_container} container align_center_all`}>
+            <div className={`${classes.flex_container} container align_center_all pageContent`} 
+            id={section.home}>
                 <div
                     className={`${classes.flex_item}`}
                     style={{ color: "white", textAlign: "center" }}
